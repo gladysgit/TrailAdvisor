@@ -38,11 +38,12 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="#problem">Introduction</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#problem">Intro</a></li>
                     <li class="nav-item"><a class="nav-link" href="#data">Data</a></li>
                     <li class="nav-item"><a class="nav-link" href="#why">Why?</a></li>
                     <li class="nav-item"><a class="nav-link" href="#where">Where?</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#more">Map</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#more">Tour</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#more">Map App</a></li>
                     <li class="nav-item"><a href="#end" class="nav-link">Summary</a></li>
                 </ul>
             </div>
@@ -67,12 +68,10 @@
             <div class="row gx-4 gx-lg-5 justify-content-center">
                 <div class="col-lg-8">
                     <h1 class="text-black mx-auto mb-4"><b>Introduction</b></h1>
-                    <h5 class="text-black-50 mx-auto mb-3">What is the most popular outdoor activity in Hong Kong? I guess hiking would be one of the answers in your mind. According to the survey by HKU and TrailWatch in 2018, <span class="highlight">the popularity of hiking increased by more than 3.5 times</span> from 12.6% from 1981-
+                    <h5 class="text-black-50 mx-auto mb-3">What is the most popular outdoor activity in Hong Kong now? I guess hiking would be one of the answers in your mind. [maybe just say without putting it in the page]</h5>
+                    <h5 class="text-black-50 mx-auto mb-3">According to the survey by HKU and TrailWatch in 2018, <span class="highlight">the popularity of hiking increased by more than 3.5 times</span> from 12.6% from 1981-
 1991 to 47.0% in 2018.</h5>
-                    <h5 class="text-black-50 mx-auto mb-3">In this presentation, </h5>
-                    <h5 class="text-black-50 mx-auto mb-3">Not just a means of communication, social media nowadays is a combination of information ranging <span class="highlight">from textual, graphical, temporal, spatial to social reactions</span>.</h5>
-                    <h5 class="text-black-50 mx-auto mb-3">In Hong Kong, Instagram ranks third among all social media apps. The hashtag culture in Instagram make it <span class="highlight">an excellent source to provide insight on the changes over time and space</span>, which can facilitate the context analysis for urban planning.</h5>
-                    <h5 class="text-black-50 mx-auto mb-5"><span class="highlight">Why people would like hiking? Where would they go?</span> Let's find the answers from the data.</h5>
+                    <h5 class="text-black-50 mx-auto mb-5">This presentation will focus on two parts. The first part is data analysis to understand hiking in Hong Kong from Instagram. Integrating the analysis result with details of trail, TrailAdvisor allows you to explore your best suited hiking trail! [image below will be updated.]</h5>
                 </div>
             </div>
             <img class="img-fluid" src="assets/img/iphone.png" />
@@ -89,6 +88,18 @@
                 <div class="col-xl-4 col-lg-5">
                     <div class="featured-text text-center text-lg-left">
                         <h4><b>Project Data</b></h4>
+                        <h5 class="text-black-50 mb-0">Posts with <span class="highlight">#hkhiking</span><br>collected by web scraping</h5>
+                        <h5 class="text-black-50 mb-0">7k Posts, 18k Likes<br>in Mar 2022</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="row gx-0 mb-5 mb-lg-5 align-items-center">
+                <div class="col-xl-8 col-lg-7">
+                    <img class="img-fluid mb-3 mb-lg-0 shadow rounded" src="assets/img/hashtag.png" />
+                </div>
+                <div class="col-xl-4 col-lg-5 order-lg-first">
+                    <div class="featured-text text-center text-lg-left">
+                        <h4><b>Project Data 2</b></h4>
                         <h5 class="text-black-50 mb-0">Posts with <span class="highlight">#hkhiking</span><br>collected by web scraping</h5>
                         <h5 class="text-black-50 mb-0">7k Posts, 18k Likes<br>in Mar 2022</h5>
                     </div>
@@ -219,10 +230,24 @@
         </div>
     </section>
 
+    <!-- TrailAdvisor -->
+    <section class="data-section bg-light" id="app">
+        <div class="container px-4 px-lg-5">
+            <div class="row gx-4 gx-lg-5 justify-content-center">
+                <div class="col-lg-8">
+                    <h1 class="text-dark-50 text-center mx-auto mb-4"><b>TrailAdvisor</b></h1>
+                </div>
+            </div>
+            <div class="row gx-4 gx-lg-5 justify-content-center">
+                <iframe src="loc2.html" frameborder="0" height=750px></iframe>
+            </div>
+        </div>
+    </section>
+
     <!-- Contact-->
     <section id="end" class="contact-section bg-black">
         <div class="container h-100 px-4 px-lg-5">
-            <div class="row gx-4 gx-lg-5 h-100 align-items-center">
+            <!-- <div class="row gx-4 gx-lg-5 h-100 align-items-center">
                 <div class="col-lg-4 text-center bg-white bg-opacity-75 p-4">
                     <h4 class="text-dark"><span class="highlight">Data Acquisition</span></h4>
                     <h5 class="text-black-50">Prepare more Instagram accounts!</h5>
@@ -238,15 +263,15 @@
                     <h5 class="text-black-50">Virtual tour on 3D Map</h5>
                     <h5 class="text-black-50">Tools: Mapbox, HTML, JS, CSS</h5>
                 </div>
-            </div>
+            </div> -->
         </div>
     </section>
 
     <!-- Footer-->
     <footer class="footer small text-center text-black-50">
         <div class="container px-4 px-lg-5">
-            <p class="mb-0">Prepared by Gladys Lai (#3035777119)<br>for HKU MUA URBA6402 Mini Project</p>
-            <a href="https://youtu.be/16cZ7-lRaxU"><i class="fa-brands fa-youtube fa-xl" style="color: #64a19d"></i></a> <a href="https://github.com/gladysgit"><i class="fa-brands fa-github fa-xl" style="color: #64a19d"></i></a>
+            <p class="mb-0">for CUSUP X Geospatial Lab Webinar</p>
+            <!-- <a href="https://youtu.be/16cZ7-lRaxU"><i class="fa-brands fa-youtube fa-xl" style="color: #64a19d"></i></a> <a href="https://github.com/gladysgit"><i class="fa-brands fa-github fa-xl" style="color: #64a19d"></i></a> -->
         </div>
     </footer>
 

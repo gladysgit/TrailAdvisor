@@ -169,7 +169,7 @@ var config = {
             alignment: 'center',
             title: 'Enjoy!',
             image: '',
-            description: 'Would you feel like giving it a try after this semester?',
+            description: 'Would you feel like giving it a try after this presentation?',
             mapAnimation: 'flyTo',
             location: {
                 center: [114.12911, 22.41206],
